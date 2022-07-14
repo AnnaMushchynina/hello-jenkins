@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh ubuntu@webserver@krayina.com <<EOF
+ssh ubuntu@webserver.krayina.com <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
